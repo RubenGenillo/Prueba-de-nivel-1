@@ -1,0 +1,24 @@
+@startuml
+
+Vehiculo --|> Coche 
+Vehiculo --|> Bicicleta
+Bicicleta --|> Motocicleta
+Coche --|> Formula1
+Coche --|> Camioneta
+Coche --|> Quad
+Bicicleta --|> Quad
+
+
+Vehiculo : color
+Vehiculo : ruedas
+Coche : velocidad(km/h)
+Coche : cilindrada(cc)
+Formula1 : Equipo
+Camioneta : carga(kg)
+Bicicleta : tipo (urbana/deportiva)
+Motocicleta : velocidad(km/h)
+Motocicleta : cilindrada(cc)
+Quad : modelo
+Quad : carga
+
+@enduml
